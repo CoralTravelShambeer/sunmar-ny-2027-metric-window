@@ -1,0 +1,26 @@
+{
+  "name": "sunmar-ny-2027-metric-window",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "b2c-landing-vite dev",
+    "build": "b2c-landing-vite build",
+    "check": "b2c-landing-vite check",
+    "deploy": "b2c-landing-vite deploy",
+    "deploy:section": "b2c-landing-vite deploy --section",
+    "deploy:force": "b2c-landing-vite deploy --force",
+    "deploy:remote": "b2c-landing-vite deploy --remote",
+    "deploy:dry-run": "b2c-landing-vite deploy --dry-run",
+    "deploy:update": "b2c-landing-vite deploy --update",
+    "deploy:relink": "b2c-landing-vite deploy --relink",
+    "deploy:publish": "b2c-landing-vite deploy --publish",
+    "deploy:assets": "b2c-landing-vite deploy --assets-only",
+    "deploy:assets:prune": "b2c-landing-vite deploy --assets-only --prune-assets",
+    "block:add": "b2c-landing-vite block:add",
+    "block:rename": "b2c-landing-vite block:rename"
+  },
+  "devDependencies": {
+    "sass": "^1.102.0"
+  }
+}

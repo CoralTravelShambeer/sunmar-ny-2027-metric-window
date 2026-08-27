@@ -1,0 +1,38 @@
+# Dependencies
+node_modules/
+
+# Generated builder output and local deploy state
+@CMS/
+.b2c/
+dist/
+dist-ssr/
+build/
+
+# Local environment files
+.env
+.env.*
+!.env.example
+
+# Logs, caches, and temporary files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+.cache/
+.vite/
+coverage/
+*.tmp
+*.temp
+
+# Operating system and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+*.sw?
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
